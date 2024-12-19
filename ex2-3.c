@@ -1,4 +1,6 @@
-// This small program already shows all the intricacies and the beauty of C (e.g., '\0' added to the end of the string arary by the compiler, auto array size determination), or rather it's compiler.
+// This small program already shows all the intricacies and the beauty of C 
+// (e.g., '\0' added to the end of the string arary by the compiler, auto array 
+// size determination), or rather it's compiler.
 #include <stdio.h>
 
 // We define the following symbolic constants
@@ -40,7 +42,8 @@ int htoi(char s[])
 // Main function
 int main() 
 {
-    char hexString[] = "0x1A3F"; // Example hexadecimal string, we don't need to give the array size, as C automatically initializes to the number of char's in the string.
+    char hexString[] = "0x1A3F"; // Example hexadecimal string, we don't need to give the 
+    // array size, as C automatically initializes to the number of char's in the string.
     int result = htoi(hexString); // Convert to integer
     printf("The integer value of %s is %d\n", hexString, result); // Print the result
 
